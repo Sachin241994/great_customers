@@ -1,6 +1,63 @@
 #!/usr/bin/env python
 # coding: utf-8
+"""
+You are assuming the role of Data Scientist at a food delivery company. They've collected a bunch of data from their users with an online survey. The surveys are then manually typed into a computer. Those guys who did the data entry are not super reliable. They then labelled the data (using their additional internal data on their users) and have already separated the entire samples into two classes:
 
+    • great_customers: those who are very profitable to the company,
+
+    • no_great_customers: and those who are not.
+
+
+
+
+
+
+
+Dataset link:
+
+https://raw.githubusercontent.com/subashgandyer/datasets/main/great_customers.csv
+
+
+
+• The first variable is a unique user identifier.
+
+• The final variable great_customer_class is the "class" variable of whether the customer is a great customer or not.
+
+• The other variables are features extracted about the user.
+Instructions
+
+• Write a python script that outputs the model accuracy for all the following prediction models.
+
+• Perform Data Cleaning procedures
+
+• Perform Feature Selection methods to choose the best set of features for this dataset
+
+• Predict the binary class using the following prediction models.
+
+       -  Use Random Forests
+
+       -  Use Support Vector Machines
+
+       -  Use Logistic Regression
+
+       -  Use Naive Bayes
+
+       -  Use KNN
+
+• Write an Ensemble learning technique using ONE of the following methods to boost the accuracy of the model
+
+       -  Voting
+
+       -  Stacking
+
+       -  Blending
+
+Is the accuracy increasing at all?
+
+• Determine correct metric to evaluate your prediction model.
+
+
+"""
 # In[1]:
 
 
